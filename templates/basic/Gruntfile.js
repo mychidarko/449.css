@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                 livereload: false,
             },
             styles: {
-                files: ['scss/**/*.scss'], // which files to watch
+                files: ['../../scss/**/*.scss'], // which files to watch
                 tasks: ['sass'],
                 options: {
                     nospawn: true

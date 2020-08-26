@@ -5,4 +5,11 @@
  * Licensed under MIT
  */
 
+// core files
+@import "core/index.scss";
+
+// base files and resets
 @import "base/index";
+
+// utility classes
+@import "utils/index";

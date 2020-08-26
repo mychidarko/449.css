@@ -370,4 +370,144 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
+.bg\:blue {
+  background-color: #007bff !important;
+}
+
+.text\:blue {
+  color: #007bff !important;
+}
+
+.bg\:indigo {
+  background-color: #6610f2 !important;
+}
+
+.text\:indigo {
+  color: #6610f2 !important;
+}
+
+.bg\:purple {
+  background-color: #6f42c1 !important;
+}
+
+.text\:purple {
+  color: #6f42c1 !important;
+}
+
+.bg\:pink {
+  background-color: #e83e8c !important;
+}
+
+.text\:pink {
+  color: #e83e8c !important;
+}
+
+.bg\:red {
+  background-color: #dc3545 !important;
+}
+
+.text\:red {
+  color: #dc3545 !important;
+}
+
+.bg\:orange {
+  background-color: #fd7e14 !important;
+}
+
+.text\:orange {
+  color: #fd7e14 !important;
+}
+
+.bg\:yellow {
+  background-color: #ffc107 !important;
+}
+
+.text\:yellow {
+  color: #ffc107 !important;
+}
+
+.bg\:green {
+  background-color: #28a745 !important;
+}
+
+.text\:green {
+  color: #28a745 !important;
+}
+
+.bg\:teal {
+  background-color: #20c997 !important;
+}
+
+.text\:teal {
+  color: #20c997 !important;
+}
+
+.bg\:cyan {
+  background-color: #17a2b8 !important;
+}
+
+.text\:cyan {
+  color: #17a2b8 !important;
+}
+
+.bg\:white {
+  background-color: #fff !important;
+}
+
+.text\:white {
+  color: #fff !important;
+}
+
+.bg\:gray {
+  background-color: #6c757d !important;
+}
+
+.text\:gray {
+  color: #6c757d !important;
+}
+
+.bg\:gray-dark {
+  background-color: #343a40 !important;
+}
+
+.text\:gray-dark {
+  color: #343a40 !important;
+}
+
+.bg\:gray-100 {
+  background-color: #f8f9fa !important;
+}
+
+.bg\:gray-200 {
+  background-color: #e9ecef !important;
+}
+
+.bg\:gray-300 {
+  background-color: #dee2e6 !important;
+}
+
+.bg\:gray-400 {
+  background-color: #ced4da !important;
+}
+
+.bg\:gray-500 {
+  background-color: #adb5bd !important;
+}
+
+.bg\:gray-600 {
+  background-color: #6c757d !important;
+}
+
+.bg\:gray-700 {
+  background-color: #495057 !important;
+}
+
+.bg\:gray-800 {
+  background-color: #343a40 !important;
+}
+
+.bg\:gray-900 {
+  background-color: #212529 !important;
+}
+
 /*# sourceMappingURL=449.css.map */

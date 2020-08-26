@@ -13,6 +13,6 @@ C:.
 └───templates
 ```
 
-**dist** contains raw css files
-**scss** contains the scss source of 449
-**templates** contains examples created with 449
+- **dist** contains raw css files
+- **scss** contains the scss source of 449
+- **templates** contains examples created with 449

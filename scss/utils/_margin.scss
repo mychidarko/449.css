@@ -1,0 +1,5 @@
+@each $class, $margin in $mp-sizes {
+  .margin\:#{$class} {
+    margin: $margin !important;
+  }
+}

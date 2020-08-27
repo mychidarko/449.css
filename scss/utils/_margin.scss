@@ -3,6 +3,16 @@
     margin: $margin !important;
   }
 
+  .mx\:#{$class} {
+    margin-left: $margin !important;
+    margin-right: $margin !important;
+  }
+
+  .my\:#{$class} {
+    margin-top: $margin !important;
+    margin-bottom: $margin !important;
+  }
+
   .mt\:#{$class} {
     margin-top: $margin !important;
   }
@@ -20,6 +30,20 @@
   }
 
   @include xs {
+	.m-xs\:#{$class} {
+		margin: $margin !important;
+	}
+
+	.mx-xs\:#{$class} {
+		margin-left: $margin !important;
+		margin-right: $margin !important;
+	}
+
+	.my-xs\:#{$class} {
+		margin-top: $margin !important;
+		margin-bottom: $margin !important;
+	}
+
 	.mt-xs\:#{$class} {
 		margin-top: $margin !important;
 	}
@@ -38,6 +62,20 @@
   }
 
   @include sm {
+	.m-sm\:#{$class} {
+		margin: $margin !important;
+	}
+
+	.mx-sm\:#{$class} {
+		margin-left: $margin !important;
+		margin-right: $margin !important;
+	}
+
+	.my-sm\:#{$class} {
+		margin-top: $margin !important;
+		margin-bottom: $margin !important;
+	}
+
 	.mt-sm\:#{$class} {
 		margin-top: $margin !important;
 	}
@@ -56,6 +94,20 @@
   }
 
   @include md {
+	.m-md\:#{$class} {
+		margin: $margin !important;
+	}
+
+	.mx-md\:#{$class} {
+		margin-left: $margin !important;
+		margin-right: $margin !important;
+	}
+
+	.my-md\:#{$class} {
+		margin-top: $margin !important;
+		margin-bottom: $margin !important;
+	}
+
 	.mt-md\:#{$class} {
 		margin-top: $margin !important;
 	}
@@ -74,6 +126,20 @@
   }
 
   @include lg {
+	.m-lg\:#{$class} {
+		margin: $margin !important;
+	}
+
+	.mx-lg\:#{$class} {
+		margin-left: $margin !important;
+		margin-right: $margin !important;
+	}
+
+	.my-lg\:#{$class} {
+		margin-top: $margin !important;
+		margin-bottom: $margin !important;
+	}
+
 	.mt-lg\:#{$class} {
 		margin-top: $margin !important;
 	}
@@ -92,6 +158,20 @@
   }
 
   @include xl {
+	.m-xl\:#{$class} {
+		margin: $margin !important;
+	}
+
+	.mx-xl\:#{$class} {
+		margin-left: $margin !important;
+		margin-right: $margin !important;
+	}
+
+	.my-xl\:#{$class} {
+		margin-top: $margin !important;
+		margin-bottom: $margin !important;
+	}
+
 	.mt-xl\:#{$class} {
 		margin-top: $margin !important;
 	}

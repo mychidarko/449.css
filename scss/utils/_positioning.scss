@@ -1,3 +1,39 @@
+@each $value in (relative, absolute, fixed, static) {
+	.position\:#{$value} {
+		position: $value !important;
+	}
+
+	@include xs {
+		.position-xs\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include sm {
+		.position-sm\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include md {
+		.position-md\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include lg {
+		.position-lg\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include xl {
+		.position-xl\:#{$value} {
+			position: $value !important;
+		}
+	}
+}
+
 @each $class, $position in $mp-sizes {
   .top\:#{$class} {
     top: $position !important;

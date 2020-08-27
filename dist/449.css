@@ -4210,6 +4210,122 @@ input[type="search"]::-webkit-search-results-decoration {
     padding-right: 100% !important;
   }
 }
+.position\:relative {
+  position: relative !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .position-xs\:relative {
+    position: relative !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .position-sm\:relative {
+    position: relative !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .position-md\:relative {
+    position: relative !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .position-lg\:relative {
+    position: relative !important;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .position-xl\:relative {
+    position: relative !important;
+  }
+}
+.position\:absolute {
+  position: absolute !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .position-xs\:absolute {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .position-sm\:absolute {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .position-md\:absolute {
+    position: absolute !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .position-lg\:absolute {
+    position: absolute !important;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .position-xl\:absolute {
+    position: absolute !important;
+  }
+}
+.position\:fixed {
+  position: fixed !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .position-xs\:fixed {
+    position: fixed !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .position-sm\:fixed {
+    position: fixed !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .position-md\:fixed {
+    position: fixed !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .position-lg\:fixed {
+    position: fixed !important;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .position-xl\:fixed {
+    position: fixed !important;
+  }
+}
+.position\:static {
+  position: static !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .position-xs\:static {
+    position: static !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .position-sm\:static {
+    position: static !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .position-md\:static {
+    position: static !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .position-lg\:static {
+    position: static !important;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .position-xl\:static {
+    position: static !important;
+  }
+}
 .top\:0 {
   top: 0 !important;
 }

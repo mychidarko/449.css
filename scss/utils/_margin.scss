@@ -1,5 +1,111 @@
 @each $class, $margin in $mp-sizes {
-  .margin\:#{$class} {
+  .m\:#{$class} {
     margin: $margin !important;
+  }
+
+  .mt\:#{$class} {
+    margin-top: $margin !important;
+  }
+
+  .mb\:#{$class} {
+    margin-bottom: $margin !important;
+  }
+
+  .ml\:#{$class} {
+    margin-left: $margin !important;
+  }
+
+  .mr\:#{$class} {
+    margin-right: $margin !important;
+  }
+
+  @include xs {
+	.mt-xs\:#{$class} {
+		margin-top: $margin !important;
+	}
+
+	.mb-xs\:#{$class} {
+		margin-bottom: $margin !important;
+	}
+
+	.ml-xs\:#{$class} {
+		margin-left: $margin !important;
+	}
+
+	.mr-xs\:#{$class} {
+		margin-right: $margin !important;
+	}
+  }
+
+  @include sm {
+	.mt-sm\:#{$class} {
+		margin-top: $margin !important;
+	}
+
+	.mb-sm\:#{$class} {
+		margin-bottom: $margin !important;
+	}
+
+	.ml-sm\:#{$class} {
+		margin-left: $margin !important;
+	}
+
+	.mr-sm\:#{$class} {
+		margin-right: $margin !important;
+	}
+  }
+
+  @include md {
+	.mt-md\:#{$class} {
+		margin-top: $margin !important;
+	}
+
+	.mb-md\:#{$class} {
+		margin-bottom: $margin !important;
+	}
+
+	.ml-md\:#{$class} {
+		margin-left: $margin !important;
+	}
+
+	.mr-md\:#{$class} {
+		margin-right: $margin !important;
+	}
+  }
+
+  @include lg {
+	.mt-lg\:#{$class} {
+		margin-top: $margin !important;
+	}
+
+	.mb-lg\:#{$class} {
+		margin-bottom: $margin !important;
+	}
+
+	.ml-lg\:#{$class} {
+		margin-left: $margin !important;
+	}
+
+	.mr-lg\:#{$class} {
+		margin-right: $margin !important;
+	}
+  }
+
+  @include xl {
+	.mt-xl\:#{$class} {
+		margin-top: $margin !important;
+	}
+
+	.mb-xl\:#{$class} {
+		margin-bottom: $margin !important;
+	}
+
+	.ml-xl\:#{$class} {
+		margin-left: $margin !important;
+	}
+
+	.mr-xl\:#{$class} {
+		margin-right: $margin !important;
+	}
   }
 }

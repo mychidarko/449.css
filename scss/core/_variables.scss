@@ -65,6 +65,13 @@ $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
+$grid-breakpoints: (
+  xs: $xs,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl
+) !default;
 
 // font weights
 $weights: (400, 500, 600, 700, 800, "normal", "bold");

@@ -1,0 +1,25 @@
+{
+  "name": "449.css",
+  "version": "1.0.0",
+  "description": "Simple utility helper for css/scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darko-mychi/449.css.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "styling",
+    "utility"
+  ],
+  "author": "Michael Darko <mickdd22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darko-mychi/449.css/issues"
+  },
+  "homepage": "https://github.com/darko-mychi/449.css#readme"
+}

@@ -1,0 +1,359 @@
+@each $value in (relative, absolute, fixed, sticky) {
+	.position\:#{$value} {
+		position: $value !important;
+	}
+
+	@include xs {
+		.position-xs\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include sm-down {
+		.position-sm-down\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include sm {
+		.position-sm\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include sm-up {
+		.position-sm-up\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include md-down {
+		.position-md-down\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include md {
+		.position-md\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include md-up {
+		.position-md-up\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include lg-down {
+		.position-lg-down\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include lg {
+		.position-lg\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include lg-up {
+		.position-lg-up\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include xl-down {
+		.position-xl-down\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include xl {
+		.position-xl\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include xl-up {
+		.position-xl-up\:#{$value} {
+			position: $value !important;
+		}
+	}
+
+	@include xxl {
+		.position-xxl\:#{$value} {
+			position: $value !important;
+		}
+	}
+}
+
+@each $class, $position in $sizes {
+	.top\:#{$class} {
+		top: $position !important;
+	}
+
+	.bottom\:#{$class} {
+		bottom: $position !important;
+	}
+
+	.left\:#{$class} {
+		left: $position !important;
+	}
+
+	.right\:#{$class} {
+		right: $position !important;
+	}
+
+	@include xs {
+		.top-xs\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-xs\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-xs\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-xs\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include sm-down {
+		.top-sm-down\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-sm-down\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-sm-down\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-sm-down\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include sm {
+		.top-sm\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-sm\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-sm\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-sm\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include sm-up {
+		.top-sm-up\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-sm-up\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-sm-up\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-sm-up\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include md-down {
+		.top-md-down\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-md-down\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-md-down\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-md-down\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include md {
+		.top-md\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-md\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-md\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-md\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include md-up {
+		.top-md-up\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-md-up\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-md-up\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-md-up\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include lg-down {
+		.top-lg-down\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-lg-down\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-lg-down\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-lg-down\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include lg {
+		.top-lg\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-lg\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-lg\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-lg\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include lg-up {
+		.top-lg-up\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-lg-up\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-lg-up\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-lg-up\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include xl-down {
+		.top-xl-down\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-xl-down\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-xl-down\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-xl-down\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include xl {
+		.top-xl\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-xl\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-xl\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-xl\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include xl-up {
+		.top-xl-up\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-xl-up\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-xl-up\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-xl-up\:#{$class} {
+			right: $position !important;
+		}
+	}
+
+	@include xxl {
+		.top-xxl\:#{$class} {
+			top: $position !important;
+		}
+
+		.bottom-xxl\:#{$class} {
+			bottom: $position !important;
+		}
+
+		.left-xxl\:#{$class} {
+			left: $position !important;
+		}
+
+		.right-xxl\:#{$class} {
+			right: $position !important;
+		}
+	}
+}

@@ -1,0 +1,389 @@
+@each $class, $size in $sizes {
+	.h\:#{$class} {
+		height: $size !important;
+	}
+
+	.w\:#{$class} {
+		width: $size !important;
+	}
+
+	.max-h\:#{$class} {
+		max-height: $size !important;
+	}
+
+	.max-w\:#{$class} {
+		max-width: $size !important;
+	}
+
+	.min-h\:#{$class} {
+		min-height: $size !important;
+	}
+
+	.min-w\:#{$class} {
+		min-width: $size !important;
+	}
+
+	@include xs {
+		.h-xs\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-xs\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-xs\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-xs\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-xs\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-xs\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include sm {
+		.h-sm\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-sm\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-sm\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-sm\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-sm\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-sm\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include sm-up {
+		.h-sm-up\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-sm-up\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-sm-up\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-sm-up\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-sm-up\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-sm-up\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include sm-down {
+		.h-sm-down\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-sm-down\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-sm-down\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-sm-down\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-sm-down\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-sm-down\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include md {
+		.h-md\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-md\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-md\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-md\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-md\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-md\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include md-up {
+		.h-md-up\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-md-up\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-md-up\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-md-up\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-md-up\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-md-up\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include md-down {
+		.h-md-down\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-md-down\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-md-down\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-md-down\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-md-down\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-md-down\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include lg {
+		.h-lg\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-lg\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-lg\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-lg\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-lg\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-lg\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include lg-up {
+		.h-lg-up\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-lg-up\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-lg-up\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-lg-up\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-lg-up\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-lg-up\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include lg-down {
+		.h-lg-down\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-lg-down\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-lg-down\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-lg-down\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-lg-down\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-lg-down\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include xl {
+		.h-xl\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-xl\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-xl\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-xl\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-xl\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-xl\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include xl-up {
+		.h-xl-up\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-xl-up\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-xl-up\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-xl-up\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-xl-up\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-xl-up\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include xl-down {
+		.h-xl-down\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-xl-down\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-xl-down\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-xl-down\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-xl-down\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-xl-down\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+
+	@include xxl {
+		.h-xxl\:#{$class} {
+			height: $size !important;
+		}
+
+		.w-xxl\:#{$class} {
+			width: $size !important;
+		}
+
+		.max-h-xxl\:#{$class} {
+			max-height: $size !important;
+		}
+
+		.max-w-xxl\:#{$class} {
+			max-width: $size !important;
+		}
+
+		.min-h-xxl\:#{$class} {
+			min-height: $size !important;
+		}
+
+		.min-w-xxl\:#{$class} {
+			min-width: $size !important;
+		}
+	}
+}

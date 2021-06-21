@@ -1,0 +1,61 @@
+@each $color, $value in $grays {
+	.shadow-sm\:#{$color} {
+		box-shadow: 0px 0px 1px $value !important;
+	}
+
+	.shadow\:#{$color} {
+		box-shadow: 0px 0px 4px $value !important;
+	}
+
+	.shadow-lg\:#{$color} {
+		box-shadow: 0px 0px 8px $value !important;
+	}
+
+	.shadow-top-sm\:#{$color} {
+		box-shadow: 0px -1px 1px $value !important;
+	}
+
+	.shadow-top\:#{$color} {
+		box-shadow: 0px -1px 4px $value !important;
+	}
+
+	.shadow-top-lg\:#{$color} {
+		box-shadow: 0px -1px 8px $value !important;
+	}
+
+	.shadow-bottom-sm\:#{$color} {
+		box-shadow: 0px 1px 1px $value !important;
+	}
+
+	.shadow-bottom\:#{$color} {
+		box-shadow: 0px 1px 4px $value !important;
+	}
+
+	.shadow-bottom-lg\:#{$color} {
+		box-shadow: 0px 1px 8px $value !important;
+	}
+
+	.shadow-left-sm\:#{$color} {
+		box-shadow: -1px 0px 1px $value !important;
+	}
+
+	.shadow-left\:#{$color} {
+		box-shadow: -1px 0px 4px $value !important;
+	}
+
+	.shadow-left-lg\:#{$color} {
+		box-shadow: -1px 0px 8px $value !important;
+	}
+
+	.shadow-right-sm\:#{$color} {
+		box-shadow: 1px 0px 1px $value !important;
+	}
+
+	.shadow-right\:#{$color} {
+		box-shadow: 1px 0px 4px $value !important;
+	}
+
+	.shadow-right-lg\:#{$color} {
+		box-shadow: 1px 0px 8px $value !important;
+	}
+}

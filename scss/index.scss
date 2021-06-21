@@ -6,10 +6,23 @@
  */
 
 // core files
-@import "core/index";
+@import "./core/variables";
+@import "./core/mixins";
 
 // base files and resets
-@import "base/index";
+@import "./base/dom-resets";
 
 // utility classes
-@import "utils/index";
+@import "./utils/colors";
+@import "./utils/font";
+@import "./utils/margin";
+@import "./utils/padding";
+@import "./utils/display";
+@import "./utils/position";
+@import "./utils/transition";
+@import "./utils/animation";
+@import "./utils/border";
+@import "./utils/overflow";
+@import "./utils/cursor";
+@import "./utils/dimensions";
+@import "./utils/shadow";

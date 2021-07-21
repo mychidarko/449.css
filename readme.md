@@ -215,6 +215,29 @@ Just as with **margins**, you can also combine paddings with breakpoints:
 
 ### position
 
+The position utility allows you to easily set a CSS position on your element. The available classes are:
+
+- `position:relative`
+- `position:absolute`
+- `position:fixed`
+- `position:sticky`
+
+Besides these, you can also set the top, bottom, left and right positions of items on the screen using dimensions. eg:
+
+- `top:_1` (top: 10px)
+- `left:20` (left: 20%)
+
+```html
+<div class="position:fixed bottom:_1 right:_2">...
+```
+
+Just as with the above utilities, you can also use responsiveness here:
+
+```html
+<div class="position-xs:relative position-sm-up:fixed">...
+<div class="left-xs:0 left-sm-up:_3">...
+```
+
 ### display
 
 ### cursor

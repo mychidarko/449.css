@@ -9,13 +9,11 @@ A CSS "helper" created at 4:49 pm🙂🎨
 ```bash
 C:.
 ├───dist
-├───scss
-└───templates
+└───scss
 ```
 
 - **dist** contains raw css files
 - **scss** contains the scss source of 449
-- **templates** contains examples created with 449
 
 ## Why use 449?
 
@@ -240,16 +238,77 @@ Just as with the above utilities, you can also use responsiveness here:
 
 ### display
 
+The display utility allows you to set displays for the following:
+
+- none
+- flex
+- ruby
+- block
+- contents
+- grid
+- inline
+- inline-block
+- inline-flex
+- table
+
+```html
+<div class="d:fixed">...
+```
+
+#### flex utility classes
+
+Flex is the most used display class, as such, 449 includes a bunch of helpers for it.
+
+DOCS coming soon...
+
 ### cursor
+
+This is a simple utility for setting the cursor property.
+
+eg: `cursor:pointer`. You can use any valid cursor property on `cursor:`
 
 ### overflow
 
+FEATURE COMING SOON
+
 ### animation
+
+DOCS COMING SOON
 
 ### shadow
 
+449 comes with shades of grey ranging from 100 to 900. These greys can be used to set the shadow lightness/darkness. Besides the lightness, shadows also posess a direction and size which can all be set with 449.
+
+- shadow:400 (This sets a default shadow with colour grey-400 #ced4da)
+- shadow-sm for a small shadow
+- shadow-lg for a large shadow
+- shadow-top for a shadow on top
+- shadow-bottom for a lower shadow
+- shadow-left for a left shadow
+- shadow-right for a right shadow
+
+You can also combine sizes and directions like this:
+
+- shadow-top-sm
+- shadow-right-lg
+
+```html
+<div class="topnav shadow-bottom-sm:400">...
+```
+
 ### border
+
+FEATURE COMING SOON
 
 ### colors
 
+Basically backgrounds and text colours. Eg:
+
+```html
+<small class="text:red">...
+<div class="bg:blue">...
+```
+
 ### font
+
+FEATURE COMING SOON

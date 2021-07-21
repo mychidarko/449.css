@@ -108,9 +108,110 @@ Even if you won't be using mixins, 449's dimensions are based on these mixins, s
 
 ### dimensions
 
+Dimensions are the basis of 449 css styling. There are a few things to note in terms of sizing:
+
+#### Scales
+
+449 has 2 unique scales for sizing: pixels and percentages. To reference the pixel sizing, use `_` eg: `ml:_1` to give a margin left of `10px`. You can use a number directly for the percentage scale eg: `ml:10` for a margin left of `10%`. Below is the full range of available values for both scales.
+
+- "-1": -10px
+- "-2": -20px
+- "-3": -30px
+- "-4": -40px
+- "-5": -50px
+- "-6": -60px
+- "-7": -70px
+- "-8": -80px
+- "-9": -90px
+- "-10": -100px
+- "0": 0
+- "_1": 10px
+- "_2": 20px
+- "_3": 30px
+- "_4": 40px
+- "_5": 50px
+- "_6": 60px
+- "_7": 70px
+- "_8": 80px
+- "_9": 90px
+- "_10": 100px
+- "auto": auto
+- "10": 10%
+- "20": 20%
+- "25": 25%
+- "30": 30%
+- "33": 33.33%
+- "40": 40%
+- "45": 45%
+- "50": 50%
+- "60": 60%
+- "66": 66.66%
+- "70": 70%
+- "75": 75%
+- "80": 80%
+- "90": 90%
+- "100": 100%
+- "10vh": 10vh
+- "25vh": 25vh
+- "50vh": 50vh
+- "75vh": 75vh
+- "100vh": 100vh
+- "10vw": 10vw
+- "25vw": 25vw
+- "50vw": 50vw
+- "75vw": 75vw
+- "100vw": 100vw
+
+The dimensions util comes with classes for setting:
+
+- height (h) eg: `h:100`
+- max height (max-h) eg: `max-h:100`
+- min height (min-h) eg: `min-h:100`
+- width (w) eg: `w:100`
+- max width (max-w) eg: `max-w:100`
+- min width (min-w) eg: `min-w:100`
+
+As shown in the **responsiveness** section above, you can combine these dimensions with breakpoints like this:
+
+```html
+<div class="max-h-xs:100 max-h-sm-up:80">...
+```
+
 ### margin
 
+449 comes with a margin utility that allows you to easily set margins for your elements. The available classes are:
+
+- margin (m) eg: `m:_1`
+- margin left and right (mx) eg: `mx:_1`
+- margin up and down (my) eg: `my:_1`
+- margin top (mt) eg: `mt:_1`
+- margin bottom (mb) eg: `mb:_1`
+- margin left (ml) eg: `ml:_1`
+- margin right (mr) eg: `mr:_1`
+
+Just as with **dimensions**, you can also combine margins with breakpoints:
+
+```html
+<div class="m-xs:_1 m-sm-up:_5">...
+```
+
 ### padding
+
+449 comes with a padding utility that allows you to easily set paddings for your elements. The available classes are:
+
+- padding (p) eg: `p:_1`
+- padding left and right (px) eg: `px:_1`
+- padding up and down (py) eg: `py:_1`
+- padding top (pt) eg: `pt:_1`
+- padding bottom (pb) eg: `pb:_1`
+- padding left (pl) eg: `pl:_1`
+- padding right (pr) eg: `pr:_1`
+
+Just as with **margins**, you can also combine paddings with breakpoints:
+
+```html
+<div class="p-xs:_1 p-sm-up:_5">...
+```
 
 ### position
 

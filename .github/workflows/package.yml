@@ -12,9 +12,9 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 14
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
+      # - run: npm ci
+      # - run: npm test
+      # - run: npm run build
 
   publish-npm:
     needs: build

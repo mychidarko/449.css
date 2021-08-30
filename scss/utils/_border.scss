@@ -1,3 +1,38 @@
 .border\:none {
 	border: none !important;
 }
+
+.border-radius\:none {
+	border-radius: none !important;
+}
+
+.border-radius\:xs {
+	border-radius: 2px;
+}
+.border-radius\:sm {
+	border-radius: 4px;
+}
+.border-radius\:md {
+	border-radius: 6px;
+}
+.border-radius\:lg {
+	border-radius: 8px;
+}
+.border-radius\:xl {
+	border-radius: 10px;
+}
+.border-radius\:xxl {
+	border-radius: 20px;
+}
+.border-radius\:10 {
+	border-radius: 10%;
+}
+.border-radius\:25 {
+	border-radius: 25%;
+}
+.border-radius\:50 {
+	border-radius: 50%;
+}
+.border-radius\:x {
+	border-radius: 1000px;
+}

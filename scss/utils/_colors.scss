@@ -7,11 +7,295 @@
   .text\:#{$colorName} {
     color: $colorValue !important;
   }
+
+  @include xs {
+    .bg-xs\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xs\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include sm-down {
+    .bg-sm-down\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-sm-down\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include sm {
+    .bg-sm\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-sm\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include sm-up {
+    .bg-sm-up\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-sm-up\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include md-down {
+    .bg-md-down\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-md-down\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include md {
+    .bg-md\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-md\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include md-up {
+    .bg-md-up\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-md-up\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include lg-down {
+    .bg-lg-down\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-lg-down\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include lg {
+    .bg-lg\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-lg\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include lg-up {
+    .bg-lg-up\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-lg-up\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xl-down {
+    .bg-xl-down\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xl-down\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xl {
+    .bg-xl\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xl\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xl-up {
+    .bg-xl-up\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xl-up\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xxl {
+    .bg-xxl\:#{$colorName} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xxl\:#{$colorName} {
+      color: $colorValue !important;
+    }
+  }
 }
 
 // grays
 @each $colorShade, $colorValue in $grays {
   .bg\:gray-#{$colorShade} {
     background-color: $colorValue !important;
+  }
+
+  .text\:gray-#{$colorShade} {
+    color: $colorValue !important;
+  }
+
+  @include xs {
+    .bg-xs\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xs\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include sm-down {
+    .bg-sm-down\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-sm-down\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include sm {
+    .bg-sm\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-sm\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include sm-up {
+    .bg-sm-up\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-sm-up\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include md-down {
+    .bg-md-down\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-md-down\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include md {
+    .bg-md\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-md\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include md-up {
+    .bg-md-up\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-md-up\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include lg-down {
+    .bg-lg-down\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-lg-down\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include lg {
+    .bg-lg\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-lg\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include lg-up {
+    .bg-lg-up\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-lg-up\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xl-down {
+    .bg-xl-down\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xl-down\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xl {
+    .bg-xl\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xl\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xl-up {
+    .bg-xl-up\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xl-up\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
+  }
+
+  @include xxl {
+    .bg-xxl\:gray-#{$colorShade} {
+      background-color: $colorValue !important;
+    }
+
+    .text-xxl\:gray-#{$colorShade} {
+      color: $colorValue !important;
+    }
   }
 }

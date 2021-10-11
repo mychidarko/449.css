@@ -1,7 +1,89 @@
-.overflow\:scroll {
-	overflow: scroll;
-}
+@each $overflow in $overflows {
+	.overflow\:#{$overflow} {
+		overflow: $overflow !important;
+	}
 
-.overflow-y\:scroll {
-	overflow-y: scroll;
+	@include xs {
+		.overflow-xs\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include sm-down {
+		.overflow-sm-down\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include sm {
+		.overflow-sm\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include sm-up {
+		.overflow-sm-up\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include md-down {
+		.overflow-md-down\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include md {
+		.overflow-md\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include md-up {
+		.overflow-md-up\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include lg-down {
+		.overflow-lg-down\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include lg {
+		.overflow-lg\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include lg-up {
+		.overflow-lg-up\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include xl-down {
+		.overflow-xl-down\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include xl {
+		.overflow-xl\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include xl-up {
+		.overflow-xl-up\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
+
+	@include xxl {
+		.overflow-xl\:#{$overflow} {
+			overflow: $overflow !important;
+		}
+	}
 }

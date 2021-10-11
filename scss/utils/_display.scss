@@ -160,3 +160,143 @@
 .flex-d\:row {
 	flex-direction: row;
 }
+
+@include xs {
+	.flex-d-xs\:col {
+		flex-direction: column !important;
+	}
+	
+	.flex-d-xs\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include sm-down {
+	.flex-d-sm-down\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-sm-down\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include sm {
+	.flex-d-sm\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-sm\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include sm-up {
+	.flex-d-sm-up\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-sm-up\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include md-down {
+	.flex-d-md-down\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-md-down\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include md {
+	.flex-d-md\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-md\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include md-up {
+	.flex-d-md-up\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-md-up\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include lg-down {
+	.flex-d-lg-down\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-lg-down\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include lg {
+	.flex-d-lg\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-lg\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include lg-up {
+	.flex-d-lg-up\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-lg-up\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include xl-down {
+	.flex-d-xl-down\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-xl-down\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include xl {
+	.flex-d-xl\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-xl\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include xl-up {
+	.flex-d-xl-up\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-xl-up\:row {
+		flex-direction: row !important;
+	}
+}
+
+@include xxl {
+	.flex-d-xxl\:col {
+		flex-direction: column !important;
+	}
+
+	.flex-d-xxl\:row {
+		flex-direction: row !important;
+	}
+}
